@@ -23,8 +23,16 @@ public class PruebaLaBurbuja {
         // Mostrar arreglo ordenado
         System.out.println("Arreglo ordenado:");
         imprimirArreglo(a);
+        
+        /*Mostrar Resolución Davinia*/
+        System.out.println("==================================");
+        System.out.println("Resolución Davinia");
+        ResolucionDavinia.ejercico6();
     }
-
+    /**
+     *
+     * @param a
+     */
     public static void burbuja(int[] a) {
         int n = a.length;
         for (int i = 0; i < n - 1; i++) {
