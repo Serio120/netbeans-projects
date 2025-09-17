@@ -16,5 +16,8 @@ public class EjerciciosResueltos {
         System.out.println("======================");
         System.out.println("Ejercicio 7o1");
         Ejercicio7o1.ejer7o1();
+        System.out.println("======================");
+        System.out.println("Ejercicio 8");
+        Ejercicio8.Ejer8();
     }
 }
