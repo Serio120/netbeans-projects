@@ -202,7 +202,7 @@ public class MisEjercicios {
             }
         }
 
-        System.out.println(nombreMes + " tiene " + dias + " días.");
+        System.out.println(nombreMes + " tiene " + dias + " dias.");
     }
 
     // 9 - Contar números negativos y ceros hasta que se introduce -25
