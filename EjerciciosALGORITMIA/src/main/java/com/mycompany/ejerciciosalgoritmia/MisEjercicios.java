@@ -159,7 +159,7 @@ public class MisEjercicios {
         String nombreMes;
         int dias;
 
-        switch (mes) {
+        switch (mes) {  // cases sin break
             case 1 -> {
                 nombreMes = "Enero"; dias = 31;
             }
