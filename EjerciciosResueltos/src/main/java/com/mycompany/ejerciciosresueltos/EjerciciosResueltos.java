@@ -20,7 +20,10 @@ public class EjerciciosResueltos {
         System.out.println("Ejercicio 8");
         Ejercicio8.Ejer8();
         System.out.println("======================");
-        System.out.println("Ejercicio 8");
+        System.out.println("Ejercicio 8 version 2");
         Ejercicio8o1.Ejer8o1();
+        System.out.println("======================");
+        System.out.println("Ejercicio 8 version 3");
+        Ejercicio8o2.ejer8o2();
     }
 }
