@@ -15,7 +15,7 @@ public class MisEjercicios {
     // 1 - Indicar el menor de tres números enteros
     public static void ejercicio1() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce tres números enteros:");
+        System.out.println("Introduce tres numeros enteros:");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
@@ -24,7 +24,7 @@ public class MisEjercicios {
         if (b < menor) menor = b;
         if (c < menor) menor = c;
 
-        System.out.println("El número menor es: " + menor);
+        System.out.println("El numero menor es: " + menor);
     }
 
     // 2 - Contar cuántas veces aparece una letra en una frase
@@ -47,17 +47,17 @@ public class MisEjercicios {
     // 3 - Sumar o restar dos números reales según elección del usuario
     public static void ejercicio3() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce el primer número real:");
+        System.out.println("Introduce el primer numero real:");
         double num1 = sc.nextDouble();
-        System.out.println("Introduce el segundo número real:");
+        System.out.println("Introduce el segundo numero real:");
         double num2 = sc.nextDouble();
-        System.out.println("Elige operación: 1 para suma, 2 para resta");
+        System.out.println("Elige operacion: 1 para suma, 2 para resta");
         int opcion = sc.nextInt();
 
         if (opcion != 1) if (opcion == 2) {
             System.out.println("Resultado de la resta: " + (num1 - num2));
         } else {
-            System.out.println("Opción no válida.");
+            System.out.println("Opcion no valida.");
         } else {
             System.out.println("Resultado de la suma: " + (num1 + num2));
         }
@@ -67,7 +67,7 @@ public class MisEjercicios {
     public static void ejercicio4() {
         Scanner sc = new Scanner(System.in);
         String usuarioCorrecto = "admin";
-        String contraseñaCorrecta = "1234";
+        String contrasenaCorrecta = "1234";
 
         int intentos = 3;
         boolean acceso = false;
@@ -75,15 +75,15 @@ public class MisEjercicios {
         while (intentos > 0 && !acceso) {
             System.out.println("Introduce usuario:");
             String usuario = sc.nextLine();
-            System.out.println("Introduce contraseña:");
-            String contraseña = sc.nextLine();
+            System.out.println("Introduce contrasena:");
+            String contrasena = sc.nextLine();
 
-            if (usuario.equals(usuarioCorrecto) && contraseña.equals(contraseñaCorrecta)) {
+            if (usuario.equals(usuarioCorrecto) && contrasena.equals(contrasenaCorrecta)) {
                 System.out.println("Acceso concedido.");
                 acceso = true;
             } else {
                 intentos--;
-                System.out.println("Usuario o contraseña incorrectos. Intentos restantes: " + intentos);
+                System.out.println("Usuario o contrasena incorrectos. Intentos restantes: " + intentos);
             }
         }
         if (!acceso) {
@@ -125,7 +125,7 @@ public class MisEjercicios {
             }
         }
 
-        System.out.println("Palabras ordenadas alfabéticamente:");
+        System.out.println("Palabras ordenadas alfabeticamente:");
         for (String palabra : palabras) {
             System.out.println(palabra);
         }
@@ -144,16 +144,16 @@ public class MisEjercicios {
         boolean horaValida = (H >= 0 && H < 24) && (M >= 0 && M <= 59) && (S >= 0 && S <= 59);
 
         if (horaValida) {
-            System.out.println("La hora es válida.");
+            System.out.println("La hora es valida.");
         } else {
-            System.out.println("La hora no es válida.");
+            System.out.println("La hora no es valida.");
         }
     }
 
     // 8 - Indicar días y nombre del mes según número
     public static void ejercicio8() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un número de mes (1-12):");
+        System.out.println("Introduce un numero de mes (1-12):");
         int mes = sc.nextInt();
 
         String nombreMes;
@@ -197,7 +197,7 @@ public class MisEjercicios {
                 nombreMes = "Diciembre"; dias = 31;
             }
             default -> {
-                System.out.println("Número de mes no válido.");
+                System.out.println("Numero de mes no valido.");
                 return;
             }
         }
@@ -212,7 +212,7 @@ public class MisEjercicios {
         int ceros = 0;
         int num;
 
-        System.out.println("Introduce números enteros (termina con -25):");
+        System.out.println("Introduce numeros enteros (termina con -25):");
         while (true) {
             num = sc.nextInt();
             if (num == -25) break;
@@ -220,18 +220,18 @@ public class MisEjercicios {
             if (num == 0) ceros++;
         }
 
-        System.out.println("Números negativos introducidos: " + negativos);
-        System.out.println("Números ceros introducidos: " + ceros);
+        System.out.println("Numeros negativos introducidos: " + negativos);
+        System.out.println("Numeros ceros introducidos: " + ceros);
     }
 
     // 10 - Invertir el orden de las cifras de un número entero positivo
     public static void ejercicio10() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un número entero positivo:");
+        System.out.println("Introduce un numero entero positivo:");
         int num = sc.nextInt();
 
         if (num < 0) {
-            System.out.println("Número no válido.");
+            System.out.println("Numero no valido.");
             return;
         }
 
@@ -242,7 +242,7 @@ public class MisEjercicios {
             num /= 10;
         }
 
-        System.out.println("Número invertido: " + invertido);
+        System.out.println("Numero invertido: " + invertido);
     }
 
     public static void main(String[] args) {
