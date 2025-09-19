@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.ejerciciosresueltos;
+
+/**
+ *
+ * @author Imp_06 - Mañana
+ */
+public class EjerciciosResueltos {
+
+    public static void main(String[] args) {
+        /* Oultamos las llamadas para pruebas inviduales
+        System.out.println("Ejercicio 7");
+        Ejercicio7.ejer7();
+        System.out.println("======================");
+        System.out.println("Ejercicio 7o1");
+        Ejercicio7o1.ejer7o1();
+        System.out.println("======================");
+        System.out.println("Ejercicio 8");
+        Ejercicio8.Ejer8();
+        System.out.println("======================");
+        System.out.println("Ejercicio 8 version 2");
+        Ejercicio8o1.Ejer8o1();
+        System.out.println("======================");
+        System.out.println("Ejercicio 10");
+        Ejercicio8o2.ejer8o2();*/
+        System.out.println("======================");
+        System.out.println("***Ejercicio POO***");
+        EjercicioPOO.principal();
+    }
+}
